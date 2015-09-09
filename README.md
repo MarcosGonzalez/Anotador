@@ -1,0 +1,2 @@
+# Anotador
+Proyecto Phonegap
