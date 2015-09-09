@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acordador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/jquery.mobile.min.css" />
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/jquery.mobile.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>EDITOR DE TEXTO</h1>
+            </div>
+            <div data-role="content">
+                <form>
+                    <div>
+                        <input id="title" type="text" placeholder="Título de su nota" />
+                    </div>
+                    <div>
+                        <textarea id="note" placeholder="Texto de su nota"></textarea>
+                    </div>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a">
+                            <input id="btnNoThanks" type="submit" value="No gracias" />
+                        </div>
+                        <div class="ui-block-b">
+                            <input id="btnAddNote" type="submit" value="Agregar nota" />
+                        </div>
+                    </div>
+                </form>
+                <ul id="notesList" data-role="listview" data-inset="true">
+                    <li data-role="list-divider">Sus notas</li>
+                    <li id="noNotes">No tiene notas</li>
+                </ul>
+            </div>
+            <div data-role="footer" class="footer-docs">
+                
+            </div>
+        </div>
+    </body>
+</html>
